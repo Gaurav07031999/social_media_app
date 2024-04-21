@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://socialmedia002.netlify.app/login",
+    origin: "https://socialmedia002.netlify.app",
   })
 );
 
