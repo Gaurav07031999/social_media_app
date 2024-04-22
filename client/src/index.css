@@ -82,3 +82,9 @@ p {
 .btn-secondary:active {
   background-color: none;
 }
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
